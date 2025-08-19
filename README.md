@@ -29,6 +29,10 @@ It wraps popular recon tools into a hacker-style interface using **Python + Tkin
 
 ---
 
+Use you own wordlist or from SECLIST
+
+---
+
 ## 📦 Requirements
 
 ### Python
@@ -161,6 +165,13 @@ Inside you’ll find:
 * `clean_subdomains.txt` → final deduped list
 * `live.txt`, `dead.txt`, `200.txt` … → HTTP status splits
 * `ffuf.txt`, `gobuster.txt`, etc. → per-tool output
+
+---
+
+## TO DOs
+* Add javascript files download
+* Add endpoints extracter
+* Incorporate SANDmap
 
 ---
 
